@@ -20,7 +20,7 @@ const Login = () => {
       Email: data.example,
       Password: data.exampleRequired,
     };
-    fetch("http://localhost:5000/email", {
+    fetch("https://infinite-meadow-26977.herokuapp.com/email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(ItemId),

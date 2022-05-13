@@ -4,13 +4,13 @@ const Dashboard = () => {
   const [item, setItem] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/emails")
+    fetch("https://infinite-meadow-26977.herokuapp.com/emails")
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, [item]);
 
   const handleDelete = (id) => {
-    fetch("http://localhost:5000/delete/" + id, {
+    fetch("https://infinite-meadow-26977.herokuapp.com/delete/" + id, {
       method: "DELETE",
     })
       .then((res) => res.json())
