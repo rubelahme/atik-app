@@ -164,7 +164,7 @@ const Verify = () => {
                 Please upload a photo of yourself holding up a piece of paper
                 with your email address handwritten on the piece of paper along
                 with today's date. <br /> Your arm and hand holding the paper
-                must be fully visible in the photo*
+                must be fully visible in the photo**
               </p>
               <input
                 accept="image/*"
